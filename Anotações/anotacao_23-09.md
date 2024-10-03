@@ -1,6 +1,8 @@
 
 # Anotações de Aula
 
+## Comandos DDL
+
 + **Como criar o banco de dados**
 
     ```sql
