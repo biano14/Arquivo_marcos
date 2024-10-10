@@ -1,6 +1,10 @@
 # Curso de Banco de Dados
 ---
-Arquivos do aluno Marcos para facilitar o companhamento do curso
+Arquivos do aluno Marcos para facilitar o companahmento do curso.
 
-Monitor: Gustavo Fabiano
++ Inicío do curso: 28/08
++ Final previsto do curso: 18/10
+
++ Monitor: Gustavo Fabiano
++ Aluno: Marcos Ântonio da Silva
 
