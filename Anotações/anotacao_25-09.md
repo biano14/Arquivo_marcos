@@ -28,6 +28,7 @@
     AND -- 'E' lógico
     OR -- 'OU' lógico
     NOT -- 'NÃO' lógico
+    BETWEEN -- 'intervalo' lógico 
     = -- igual
     != -- diferente
     <> -- diferente
