@@ -29,3 +29,11 @@ SELECT customerNumber,
 amount
 FROM `payments`
 WHERE paymentDate >= '2004-01-01' AND paymentDate <= '2004-12-31';
+
+SELECT * FROM `customers` WHERE country != 'New Zealand';
+
+SELECT * FROM `orders` WHERE status != ('Cancelled','Disputed') AND shippedDate BETWEEN '2004-01-01' AND '2004-12-31'
+
+SELECT * FROM `orders` WHERE status != 'Cancelled' AND status != 'Disputed' AND shippedDate BETWEEN '2004-01-01' AND '2004-12-31';
+
+SELECT * FROM `orders` WHERE  orderDate BETWEEN '2004-01-01' AND '2004-12-31' AND (status = 'Cancelled' OR status = 'Resolved' ) AND shippedDate IS NOT NULL 
